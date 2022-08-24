@@ -11,7 +11,7 @@ export type characterType = {
   url: string;
   episode: Array<string>;
   created: string;
-};
+}
 
 export type locationType = {
   id: number;
@@ -21,7 +21,7 @@ export type locationType = {
   residents: Array<string>;
   url: string;
   created: string;
-};
+}
 
 export type originType = {
   id: number;
@@ -31,7 +31,7 @@ export type originType = {
   residents: Array<string>;
   url: string;
   created: string;
-};
+}
 
 export type episodeType = {
   id: number;
@@ -41,16 +41,16 @@ export type episodeType = {
   characters: Array<string>;
   url: string;
   created: string;
-};
+}
 
 export type locationURL = {
   url: string;
-};
+}
 
 export type originURL = {
   url: string;
-};
+}
 
 export type characterURL = {
   url: string;
-};
+}
